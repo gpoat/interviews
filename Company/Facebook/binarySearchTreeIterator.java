@@ -26,7 +26,7 @@ public class BSTIterator {
             
             stack.push(root);
             root = root.left;
-            
+            root.right = root;
         }
         
     }
